@@ -3,10 +3,9 @@
 \docType{package}
 \name{LESLIE-package}
 \alias{LESLIE-package}
-\alias{LESLIE}
 \title{LoESs coLorimetry sIgnal Enhancement\cr
 \if{html}{
-\figure{LESLIE_logo.png}{options: width="75" alt="r-luminescence.org"}
+\figure{LESLIE_logo.png}{options: width="75" alt="LESLIE"}
 }}
 \description{
 Enhance and visualise stratigraphic colour profiles and

@@ -33,7 +33,7 @@ returns a \link{list} with \link{matrix} objects with the colour enhanced profil
 Returns a plot or if \code{plot = FALSE} a \link{list} with \link{matrix} objects
 }
 \description{
-CIELAB color space
+CIELAB colour space
 
 Process colour data to display an enhanced colour profile
 }

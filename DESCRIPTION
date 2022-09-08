@@ -1,0 +1,28 @@
+Package: LESLIE
+Type: Package
+Title: LoESs coLorimetry sIgnal Enhancement
+Version: 0.1.0
+Author: Christian Laag [cre, aut] (<https://orcid.org/0000-0002-6012-1029>), 
+  Sebastian Kreutzer [aut] (<https://orcid.org/0000-0002-0734-2199>)
+Authors@R: c(
+    person("Christian", "Laag", role = c("cre", "aut"), email = "laag@ipgp.fr", comment = c(ORCID = "0000-0002-6012-1029")),
+    person("Sebastian", "Kreutzer", role = c("aut"), comment = c(ORCID = "0000-0002-0734-2199")))
+Maintainer: Christian Laag <laag@ipgp.fr>
+Description: Enhance and visualise stratigraphic colour profiles and 
+    decipher hidden features in sediment records.
+License: GPL-3
+Depends:
+    R (>= 4.1),
+    utils
+Imports: 
+    matrixStats (>= 0.62.0)
+Suggests:
+    testthat (>= 3.1.4)
+Encoding: UTF-8
+LazyData: true
+Language: en-GB
+RoxygenNote: 7.2.1
+Collate: 
+    'LESLIE-package.R'
+    'plot_colProfile.R'
+    'utils.R'

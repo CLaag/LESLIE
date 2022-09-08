@@ -1,13 +1,13 @@
 #' @title LoESs coLorimetry sIgnal Enhancement\cr
 #' \if{html}{
-#' \figure{LESLIE_logo.png}{options: width="75" alt="r-luminescence.org"}
+#' \figure{LESLIE_logo.png}{options: width="75" alt="LESLIE"}
 #' }
 #'
 #' @description Enhance and visualise stratigraphic colour profiles and
 #' decipher hidden features in sediment records.
 #'
 #' @name LESLIE-package
-#' @aliases LESLIE-package LESLIE
+#' @aliases LESLIE-package
 #' @docType package
 #' @keywords package
 #'

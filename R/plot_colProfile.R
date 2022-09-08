@@ -73,7 +73,7 @@ plot_colProfile <- function(
     })
 
     ## adjust list names
-    names(l) <- c("Original", paste0("Cycle #", 2:(cycles[1] + 1)))
+    names(l) <- c("Original", paste0("Cycle #", 1:(cycles[1])))
     return(l)
   }
 

@@ -1,6 +1,6 @@
 #'@title Plot the enhanced colour profile
 #'
-#'@description CIELAB color space
+#'@description CIELAB colour space
 #'
 #'@description Process colour data to display an enhanced colour profile
 #'

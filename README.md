@@ -2,7 +2,6 @@
 
 **L**o**ES**s co**L**orimetry s**I**gnal **E**nhancement
 
-This is a test
 [![Project Status: Active – The project has reached a stable, usable
 state and is being actively
 developed.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)

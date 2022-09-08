@@ -9,8 +9,9 @@ Authors@R: c(
     person("Sebastian", "Kreutzer", role = c("aut"), comment = c(ORCID = "0000-0002-0734-2199")))
 Maintainer: Christian Laag <laag@ipgp.fr>
 Description: Enhance and visualise stratigraphic colour profiles and 
-    decipher hidden features in sediment records.
+    decipher hidden features in loess-palaeosoil records.
 License: GPL-3
+BugReports: https://github.com/CLaag/LESLIE
 Depends:
     R (>= 4.1),
     utils

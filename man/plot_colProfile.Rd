@@ -21,8 +21,11 @@ row defining depth (1 column), and Lab (3 columns) colours. More columns are sil
 
 \item{depth_bottom}{\link{numeric} (\emph{optional}): bottom depth of each layer}
 
-\item{cycles}{\link{integer} (\emph{with default}): number of colour enhancement cycles, it also determines
-the number of profiles to be plotted}
+\item{cycles}{\link{numeric} (\emph{with default}): parameter for the number of colour enhancement cycles, it also determines the number of profiles for the plot output plotted.
+The highest number always determines the number of colour enhancement cycles,
+while the vector sequence sets the number of profiles shown in the plot.
+If the original sequence (no enhancement) is not wanted in the plot, this should be indicated by \code{-1}.
+For instance: '\code{cycles = c(-1,3)} shows only the 3rd enhancement cycle in the plot.}
 
 \item{plot}{\link{logical} (\emph{with default}): enables/disables plot output. If disables, the function
 returns a \link{list} with \link{matrix} objects with the colour enhanced profiles}

@@ -8,7 +8,16 @@ test_that("plot_colProfile()", {
 
   ##run the function
   data(LESLIE_profile, envir = environment())
-  testthat::expect_silent(plot_colProfile(LESLIE_profile, cycles = 3))
-  testthat::expect_type(plot_colProfile(LESLIE_profile, plot = FALSE), "list")
+    ## standard plot output
+    testthat::expect_silent(plot_colProfile(LESLIE_profile, cycles = 3))
+
+    ## show cycle 0, 1 and 3
+    testthat::expect_silent(plot_colProfile(LESLIE_profile, cycles = c(1,3)))
+
+    ## show only cycle 3 and not the non-enhanced colour profile
+    testthat::expect_silent(plot_colProfile(LESLIE_profile, cycles = c(-1,3)))
+
+    ## test the object output
+    testthat::expect_type(plot_colProfile(LESLIE_profile, plot = FALSE), "list")
 
 })

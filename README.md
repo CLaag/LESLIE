@@ -5,6 +5,7 @@
 [![Project Status: Active – The project has reached a stable, usable
 state and is being actively
 developed.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7257766.svg)](https://doi.org/10.5281/zenodo.7257766)
 [![CRAN](https://www.r-pkg.org/badges/version/LESLIE)](https://cran.r-project.org/package=LESLIE)
 [![R-CMD-check](https://github.com/CLaag/LESLIE/workflows/GitHub%20Actions%20CI/badge.svg)](https://github.com/CLaag/LESLIE/actions)
 

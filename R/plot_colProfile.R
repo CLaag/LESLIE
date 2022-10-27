@@ -42,7 +42,8 @@ plot_colProfile <- function(
 # Input  ------------------------------------------------------------
   ## data
   if (!inherits(data, "data.frame") && !inherits(data, "matrix") || ncol(data) < 4 || nrow(data) < 1)
-    stop("[plot_colProfile()] data must be a data.frame or matrix with at least 4 columns and 1 row!",call. = FALSE)
+    stop("[plot_colProfile()] data must be a data.frame or matrix with at least 4 columns and 1 row!",
+         call. = FALSE)
 
   ## clip and convert to matrix[,1:4]
   data <- as.matrix(data)

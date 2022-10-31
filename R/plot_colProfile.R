@@ -66,7 +66,7 @@ plot_colProfile <- function(
   ## 1. run_cycles are the number used for the iteration and colour enhancement
   ## 2. plot_cycles is the vector
   run_cycles <- 2:(floor(max(1, abs(cycles))) + 1)
-  plot_cycles <- na.exclude(run_cycles[sort(cycles[cycles > 0])])
+  plot_cycles <- stats::na.exclude(run_cycles[sort(cycles[cycles > 0])])
   if (cycles[1] != -1)   plot_cycles <- c(1, plot_cycles)
 
 # Enhance colours ---------------------------------------------------------

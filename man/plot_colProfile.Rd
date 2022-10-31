@@ -8,7 +8,8 @@ plot_colProfile(
   data,
   depth_top = NULL,
   depth_bottom = NULL,
-  cycles = 5L,
+  cycles = 1:5,
+  orientation = "portrait",
   plot = TRUE,
   ...
 )
@@ -26,6 +27,8 @@ The highest number always determines the number of colour enhancement cycles,
 while the vector sequence sets the number of profiles shown in the plot.
 If the original sequence (no enhancement) is not wanted in the plot, this should be indicated by \code{-1}.
 For instance: '\code{cycles = c(-1,3)} shows only the 3rd enhancement cycle in the plot.}
+
+\item{orientation}{\link{character} (\emph{with default}): sets the orientation of the plot (\code{portrait}, \code{landscape})}
 
 \item{plot}{\link{logical} (\emph{with default}): enables/disables plot output. If disables, the function
 returns a \link{list} with \link{matrix} objects with the colour enhanced profiles}

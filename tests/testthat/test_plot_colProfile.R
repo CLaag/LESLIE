@@ -11,6 +11,9 @@ test_that("plot_colProfile()", {
     ## standard plot output
     testthat::expect_silent(plot_colProfile(LESLIE_profile, cycles = 3))
 
+    ## standard plot output landscape mode
+    testthat::expect_silent(plot_colProfile(LESLIE_profile, cycles = 3, orientation = "landscape"))
+
     ## show cycle 0, 1 and 3
     testthat::expect_silent(plot_colProfile(LESLIE_profile, cycles = c(1,3)))
 

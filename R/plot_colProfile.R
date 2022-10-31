@@ -36,7 +36,7 @@ plot_colProfile <- function(
     data,
     depth_top = NULL,
     depth_bottom = NULL,
-    cycles = 5L,
+    cycles = 1:5,
     orientation = "portrait",
     plot = TRUE,
     ...

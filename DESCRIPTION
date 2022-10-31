@@ -1,7 +1,7 @@
 Package: LESLIE
 Type: Package
 Title: LoESs coLorimetry sIgnal Enhancement
-Version: 0.1.0
+Version: 0.1.1
 Author: Christian Laag [cre, aut] (<https://orcid.org/0000-0002-6012-1029>), 
   Sebastian Kreutzer [aut] (<https://orcid.org/0000-0002-0734-2199>)
 Authors@R: c(

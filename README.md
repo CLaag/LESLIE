@@ -27,6 +27,7 @@ devtools::install_github("https://github.com/CLaag/LESLIE@main")
 ## Examples
 
 ``` r
+library(LESLIE)
 data(LESLIE_profile, envir = environment())
 plot_colProfile(LESLIE_profile, cycles = 1:3)
 ```

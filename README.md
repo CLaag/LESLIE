@@ -39,6 +39,12 @@ plot_colProfile(LESLIE_profile, cycles = c(1,3), orientation = "landscape")
 
 ![](man/figures/README-unnamed-chunk-3-2.png)<!-- -->
 
+``` r
+app_LESLIE()
+```
+
+<img src="man/figures/LESLIE_app.png" width="965" />
+
 ## License
 
 This program is free software: you can redistribute it and/or modify it

@@ -2,6 +2,7 @@
 % Please edit documentation in R/LESLIE-package.R
 \docType{package}
 \name{LESLIE-package}
+\alias{LESLIE}
 \alias{LESLIE-package}
 \title{LoESs coLorimetry sIgnal Enhancement\cr
 \if{html}{
@@ -10,5 +11,21 @@
 \description{
 Enhance and visualise stratigraphic colour profiles and
 decipher hidden features in sediment records.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item Report bugs at \url{https://github.com/CLaag/LESLIE}
+}
+
+}
+\author{
+\strong{Maintainer}: Christian Laag \email{laag@ipgp.fr} (\href{https://orcid.org/0000-0002-6012-1029}{ORCID})
+
+Authors:
+\itemize{
+  \item Sebastian Kreutzer (\href{https://orcid.org/0000-0002-0734-2199}{ORCID})
+}
+
 }
 \keyword{package}

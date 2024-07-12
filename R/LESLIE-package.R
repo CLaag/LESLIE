@@ -8,13 +8,12 @@
 #'
 #' @name LESLIE-package
 #' @aliases LESLIE-package
-#' @docType package
 #' @keywords package
 #'
 #' @import utils
 #'
 #' @md
-NULL
+"_PACKAGE"
 
 #' @title LESLIE example data
 #'
